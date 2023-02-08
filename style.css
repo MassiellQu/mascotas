@@ -1,0 +1,48 @@
+body {
+  color: rgb(127, 46, 214);
+  background-color: rgba(106, 244, 246, 0.676);
+}
+
+#seccion1 {
+  font-size: 105px;
+  text-align: center;
+  background-image: url(https://img.freepik.com/foto-gratis/lindo-perrito-haciendose-pasar-persona-negocios_23-2148985938.jpg?w=740&t=st=1675115490~exp=1675116090~hmac=7cf7018da8a00d81278504e98afeb98f2dc23cfca111b7d42c639f56940f0700);
+  background-size: contain;
+  /* height: 500px; */
+}
+#proyectos {
+  display: grid;
+  /* este divide la pagina en 3 fragmentos */
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.proyecto_class {
+  background-color: rgba(127, 46, 214);
+  margin: 50px;
+  padding: auto;
+  text-align: center;
+  padding: 20px;
+}
+.proyecto_class img {
+  height: 150px;
+  width: 200px;
+}
+
+.proyecto_class button {
+  display: block;
+  width: 5px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  border-radius: 2px;
+  margin: auto;
+  padding: 20px 40px;
+  background-color: rgba(7, 7, 7, 0.676);
+  color: rgb(251, 249, 249);
+  text-decoration: none;
+  text-align: center;
+}
+
+.proyecto_class p {
+  color: darkkhaki;
+  text-transform: uppercase;
+  font-size: 40px;
+}
